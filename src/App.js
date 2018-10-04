@@ -44,9 +44,9 @@ class App extends Component {
   }
   render() {
     return (
-      <div className="App">
-      <h1>TodoList</h1>
-        <TodoList
+      <div className="App" >
+      <h1 className="centered1">TodoList</h1>
+        <TodoList style="width:800px; margin:0 auto;"
         addItem={this.addItem}
         inputElement={this.inputElement}
         handleInput={this.handleInput}
